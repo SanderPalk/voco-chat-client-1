@@ -22,10 +22,36 @@ h3 {
 
 .chat__container {
     background-color: white;
-    width: 30rem;
+    width: 80%;
     height: 30rem;
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 10rem auto;
+    flex-direction: column;
+}
+.contaienr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 80%;
+    height: 10rem;
+    background-color: gray;
+    margin: 1rem auto;
+}
+
+.card__message {
+    width: 90%;
     margin: auto;
+    margin: auto auto 1rem auto;
+}
+.card__group  {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin: auto auto 1rem auto;
+    justify-content: flex-start;
 }
