@@ -8,8 +8,10 @@ html {
 }
 
 .chat {
-    height: 100vh;
+    height: 150vh;
     background-color: black;
+    background: rgb(0,251,191);
+    background: radial-gradient(circle, rgba(0,251,191,1) 0%, rgba(53,192,201,1) 51%, rgba(0,251,191,1) 100%);
 }
 
 h3 {
@@ -22,13 +24,17 @@ h3 {
 
 .chat__container {
     background-color: white;
-    width: 80%;
-    height: 30rem;
+    width: 60%;
+    height: 70rem;
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 10rem auto;
     flex-direction: column;
+    background: #d16401;
+    /* background: radial-gradient(circle, rgba(255,161,3,1) 0%, rgba(131,3,26,1) 100%); */
+    border-radius: 15px;
+    font-size: 1.2em;
 }
 .contaienr {
     display: flex;
@@ -36,16 +42,17 @@ h3 {
     align-items: center;
 }
 .card {
-    width: 80%;
+    width: 90%;
     height: 10rem;
-    background-color: gray;
-    margin: 1rem auto;
+    background-color:cornsilk;
+    margin: 1.2rem auto;
+    border-radius: 15px;
 }
 
 .card__message {
     width: 90%;
     margin: auto;
-    margin: auto auto 1rem auto;
+    margin: 2rem 2rem 2rem auto;
 }
 .card__group  {
     display: flex;
